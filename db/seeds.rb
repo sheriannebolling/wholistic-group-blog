@@ -5,6 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create([{username: "Sheri", email: "sheriannesecaras@gmail.com", password_digest: "dogs"}])
-Post.create([{title: "Breathing for anxiety", body: "Breath in for 4 seconds, hold for 7 seconds, and breath out for 8 seconds. Repeat at least 5 times.", author_id: 1}])
-Post.create([{title: "Monthly habit hack - December", body: "Take the stairs whenever you can", author_id: 1}])
+Post.create([{title: "Breathing for anxiety", body: "Breath in for 4 seconds, hold for 7 seconds, and breath out for 8 seconds. Repeat at least 5 times.", author: "Sheri"}])
+Post.create([{title: "Monthly habit hack - December", body: "Take the stairs whenever you can", author: "Sheri"}])
