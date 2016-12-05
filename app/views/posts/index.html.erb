@@ -1,0 +1,9 @@
+
+<h1>Welcome to Wholistic Group's Blog</h1>
+
+<h3><a href="<%=new_post_path%>">Make a new post</a></h3>
+
+<h2>All posts:</h2>
+<% @posts.each do |post| %>
+  <p><a href="<%=post_path(post)%>"</a><%= post.title %></p>
+<% end %>
